@@ -1,0 +1,33 @@
+description: Ultralytics best model trained on /content/drive/MyDrive/data2/data.yaml
+author: Ultralytics
+date: '2024-12-22T16:26:39.758515'
+version: 8.3.53
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: D21
+  1: D46
+  2: E1
+  3: F34
+  4: G1
+  5: G17
+  6: G43
+  7: G5
+  8: I9
+  9: L1
+  10: M17
+  11: M20
+  12: N35
+  13: O50
+  14: Q3
+  15: S29
+  16: V13
+  17: V31
+  18: X1
+  19: S34
