@@ -1,7 +1,7 @@
-description: Ultralytics best model trained on /content/drive/MyDrive/data2/data.yaml
+description: Ultralytics best model trained on /kaggle/working/COTA_COCO_50-1/data.yaml
 author: Ultralytics
-date: '2024-12-22T16:26:39.758515'
-version: 8.3.53
+date: '2024-12-24T22:16:59.605991'
+version: 8.3.54
 license: AGPL-3.0 License (https://ultralytics.com/license)
 docs: https://docs.ultralytics.com
 stride: 32
@@ -11,23 +11,53 @@ imgsz:
 - 640
 - 640
 names:
-  0: D21
-  1: D46
-  2: E1
-  3: F34
-  4: G1
-  5: G17
-  6: G43
-  7: G5
-  8: I9
-  9: L1
-  10: M17
-  11: M20
-  12: N35
-  13: O50
-  14: Q3
-  15: S29
-  16: V13
-  17: V31
-  18: X1
-  19: S34
+  0: 2_legs
+  1: 2_lines_slanted
+  2: 3_humps
+  3: 3_vertical_lines
+  4: a
+  5: amulet
+  6: ank
+  7: arm
+  8: belt
+  9: bird
+  10: box
+  11: brush
+  12: bug
+  13: cello
+  14: chair
+  15: circle
+  16: circle_with_triangles
+  17: cooking_pot
+  18: curvy_thing
+  19: downward_c
+  20: dream_catcher
+  21: egg
+  22: eye
+  23: feather
+  24: feather_2
+  25: flag
+  26: flathead_staff
+  27: grain
+  28: half_moon_bot
+  29: half_moon_top
+  30: hand
+  31: head
+  32: hook
+  33: hook2
+  34: leg
+  35: mouth
+  36: person
+  37: plate
+  38: pot2
+  39: snail
+  40: snake
+  41: snake_moon_line
+  42: spiral
+  43: table2
+  44: tea_cup
+  45: triangle
+  46: tuning_fork2
+  47: twist
+  48: u
+  49: water
