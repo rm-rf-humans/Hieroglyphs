@@ -3,12 +3,13 @@
 This repository provides an end-to-end solution for detecting hieroglyph symbols using YOLOv8, trained from scratch on a custom dataset. The primary goal is to build a lightweight, efficient, and deployable model for hieroglyph detection, with the added flexibility of converting the trained model to TensorFlow.js for web-based applications.
 
 # Features
-	•	YOLOv8 Training from Scratch
-	•	Trained on a hieroglyph dataset with symbols size.
-	•	Custom Dataset Integration
-	•	Dataset: COTA COCO 50.
-	•	TensorFlow.js Conversion
-	•	Enables easy deployment in web environments.
+	
+ - ** YOLOv8 Training from Scratch
+ 	- Trained on a hieroglyph dataset with symbols size.
+ - ** Custom Dataset Integration
+	- Dataset: COTA COCO 50.
+ - ** TensorFlow.js Conversion
+   	- Enables easy deployment in web environments.
 
 Dataset
 
@@ -36,7 +37,7 @@ git clone https://github.com/rm-rf-humans/Hieroglyphs.git
 cd Hieroglyphs  
 
 
-	2.	Download the dataset from Roboflow and place it in the data/ directory:
+2.    Download the dataset from Roboflow and place it in the data/ directory:
 
 data/  
 ├── train/  
