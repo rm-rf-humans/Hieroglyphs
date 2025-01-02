@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/Hyuto/yolov8-tfjs/issues"
   },
-  "homepage": "https://github.com/rm-rf-humans/yolov8-tfjs",
+  "homepage": "https://github.com/rm-rf-humans/hieroglyphs",
   "dependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "normalize.css": "^8.0.1",
