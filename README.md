@@ -4,11 +4,11 @@ This repository provides an end-to-end solution for detecting hieroglyph symbols
 
 # Features
 	
- - ** YOLOv8 Training from Scratch
+ - **YOLOv8 Training from Scratch
  	- Trained on a hieroglyph dataset with symbols size.
- - ** Custom Dataset Integration
+ - **Custom Dataset Integration
 	- Dataset: COTA COCO 50.
- - ** TensorFlow.js Conversion
+ - **TensorFlow.js Conversion
    	- Enables easy deployment in web environments.
 
 Dataset
@@ -50,7 +50,7 @@ Model Conversion to TensorFlow.js
 Once training is complete, convert the YOLOv8 model to TensorFlow.js for deployment.
 
 Results
-	•	Evaluation metrics (mAP, precision, recall) are logged after each training epoch.
+	- **Evaluation metrics (mAP, precision, recall) are logged after each training epoch.
 	•	Performance details can be found in the results/ folder.
 
 Contributions
