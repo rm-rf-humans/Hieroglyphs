@@ -11,33 +11,33 @@ This repository provides an end-to-end solution for detecting hieroglyph symbols
  - **TensorFlow.js Conversion**
    	- Enables easy deployment in web environments.
 
-Dataset
+## Dataset
 
 The dataset used for this project is COTA COCO 50, sourced from Roboflow. It contains annotated hieroglyph images optimized for training and evaluation.
 
-Dataset Overview
+### Dataset Overview
 	-	Annotation Format: COCO.
 	-	Classes: Various hieroglyphic symbols.
 
-To access the dataset:
+### To access the dataset:
 	1.	Visit COTA COCO 50 on Roboflow.
 	2.	Download the dataset in COCO format.
 
-Setup and Installation
+## Setup and Installation
 
-Prerequisites
+### Prerequisites
 	-	Python 3.8 or above
 	-	PyTorch
 	-	YOLOv8 dependencies
 
-Steps
+### Steps
 	1.	Clone this repository:
 
-git clone https://github.com/rm-rf-humans/Hieroglyphs.git  
-cd Hieroglyphs  
+	git clone https://github.com/rm-rf-humans/Hieroglyphs.git  
+	cd Hieroglyphs  
 
 
-2.    Download the dataset from Roboflow and place it in the data/ directory:
+	2.    Download the dataset from Roboflow and place it in the data/ directory:
 
 data/  
 ├── train/  
@@ -45,11 +45,11 @@ data/
 └── test/  
 
 
-Model Conversion to TensorFlow.js
+## Model Conversion to TensorFlow.js
 
 Once training is complete, convert the YOLOv8 model to TensorFlow.js for deployment.
 
-Results
+### Results
 	- **Evaluation metrics (mAP, precision, recall) are logged after each training epoch.**
 		- Performance details can be found in the results/ folder.
 
