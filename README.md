@@ -26,9 +26,9 @@ The dataset used for this project is COTA COCO 50, sourced from Roboflow. It con
 ## Setup and Installation
 
 ### Prerequisites
-	-	Python 3.8 or above
-	-	PyTorch
-	-	YOLOv8 dependencies
+-	Python 3.8 or above
+-	PyTorch
+-	YOLOv8 dependencies
 
 ### Steps
 1.	Clone this repository:
@@ -51,14 +51,14 @@ Once training is complete, convert the YOLOv8 model to TensorFlow.js for deploym
 
 ## Results
 - **Evaluation metrics (mAP, precision, recall) are logged after each training epoch.**
-- Performance details can be found in the results/ folder.
+	- Performance details can be found in the results/ folder.
 
 ## Contributions
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
 ## Acknowledgments
-	- 	Roboflow for providing the dataset.
-	-	Ultralytics for the YOLOv8 framework.
+- 	Roboflow for providing the dataset.
+-	Ultralytics for the YOLOv8 framework.
 
 For questions or suggestions, please open an issue in the repository.
