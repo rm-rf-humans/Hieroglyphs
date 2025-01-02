@@ -16,12 +16,12 @@ This repository provides an end-to-end solution for detecting hieroglyph symbols
 The dataset used for this project is COTA COCO 50, sourced from Roboflow. It contains annotated hieroglyph images optimized for training and evaluation.
 
 ### Dataset Overview
-	-	Annotation Format: COCO.
-	-	Classes: Various hieroglyphic symbols.
+-	Annotation Format: COCO.
+-	Classes: Various hieroglyphic symbols.
 
 ### To access the dataset:
-	1.	Visit COTA COCO 50 on Roboflow.
-	2.	Download the dataset in COCO format.
+1.	Visit COTA COCO 50 on Roboflow.
+2.	Download the dataset in COCO format.
 
 ## Setup and Installation
 
@@ -31,13 +31,13 @@ The dataset used for this project is COTA COCO 50, sourced from Roboflow. It con
 	-	YOLOv8 dependencies
 
 ### Steps
-	1.	Clone this repository:
+1.	Clone this repository:
 
-	git clone https://github.com/rm-rf-humans/Hieroglyphs.git  
-	cd Hieroglyphs  
+		git clone https://github.com/rm-rf-humans/Hieroglyphs.git  
+		cd Hieroglyphs  
 
 
-	2.    Download the dataset from Roboflow and place it in the data/ directory:
+2.    Download the dataset from Roboflow and place it in the data/ directory:
 
 data/  
 ├── train/  
@@ -49,15 +49,15 @@ data/
 
 Once training is complete, convert the YOLOv8 model to TensorFlow.js for deployment.
 
-### Results
-	- **Evaluation metrics (mAP, precision, recall) are logged after each training epoch.**
-		- Performance details can be found in the results/ folder.
+## Results
+- **Evaluation metrics (mAP, precision, recall) are logged after each training epoch.**
+- Performance details can be found in the results/ folder.
 
-Contributions
+## Contributions
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
-Acknowledgments
+## Acknowledgments
 	- 	Roboflow for providing the dataset.
 	-	Ultralytics for the YOLOv8 framework.
 
