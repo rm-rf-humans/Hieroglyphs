@@ -1,5 +1,5 @@
 {
-  "name": "yolov8-tfjs",
+  "name": "Hieroglyphs",
   "description": "Object detection application right in your browser using YOLOv8 and Tensorflow.js",
   "version": "1.0.0",
   "scripts": {
