@@ -7,21 +7,21 @@ This repository provides an end-to-end solution for detecting hieroglyph symbols
  - **YOLOv8 Training from Scratch**
  	- Trained on a hieroglyph dataset with symbols size.
  - **Custom Dataset Integration**
-	- Dataset: COTA COCO 50.
+	- Dataset: [COTA COCO 50](https://universe.roboflow.com/matthew-custer-bclqa/cota_coco_50).
  - **TensorFlow.js Conversion**
    	- Enables easy deployment in web environments.
 
 ## Dataset
 
-The dataset used for this project is COTA COCO 50, sourced from Roboflow. It contains annotated hieroglyph images optimized for training and evaluation.
+The dataset used for this project is [COTA COCO 50](https://universe.roboflow.com/matthew-custer-bclqa/cota_coco_50), sourced from Roboflow. It contains annotated hieroglyph images optimized for training and evaluation.
 
 ### Dataset Overview
 -	Annotation Format: COCO.
 -	Classes: Various hieroglyphic symbols.
 
 ### To access the dataset:
-1.	Visit COTA COCO 50 on Roboflow.
-2.	Download the dataset in COCO format.
+1.	Visit [COTA COCO 50](https://universe.roboflow.com/matthew-custer-bclqa/cota_coco_50) on Roboflow.
+2.	Download the dataset.
 
 ## Setup and Installation
 
@@ -50,7 +50,7 @@ data/
 Once training is complete, convert the YOLOv8 model to TensorFlow.js for deployment.
 
 ## Results
-- **Evaluation metrics (mAP, precision, recall) are logged after each training epoch.**
+- Evaluation metrics (mAP, precision, recall) are logged after each training epoch.
 	- Performance details can be found in the results/ folder.
 
 ## Contributions
